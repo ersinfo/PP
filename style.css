@@ -27,31 +27,38 @@ body {
     position: sticky;
    } */
 .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    }
+.fixed-top {
+  height: 82px;
 }
+.navbar {
+      background-color: #09151f;
+    }
 
-.navbar-brand img {
-  width: 137px;
-  height: 44px;
-  margin-left: 120px;
-}
+    .navbar-brand img {
+          margin-left: 112px;
+    width: 130px;
+    height: auto;
+    }
 
-/* .nav-header {
-  color: white;
-} */
+    .nav-link {
+      color: #fff !important;
+    }
 
-.nav-button {
-  margin-right: 99px;
-}
+    .nav-link span {
+      color: red;
+    }
 
-.nav-link span {
-  color: red;
-}
+    .ncol {
+      font-size: 17px;
+      font-weight: 500;
+    }
 
-.ncol {
-  font-size: 18px;
-  font-weight: 400;
-}
+    .nav-button {
+      padding: 8px 18px;
+      font-size: 14px;
+    }
 
 .div2 {
   height: auto;
