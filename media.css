@@ -58,7 +58,9 @@
     font-size: 33px;
     margin-top: 78px;
   } */
-
+ .hero-section {
+      width:500px;
+ }
     .hero-title {
         font-size: 32px;
       }
