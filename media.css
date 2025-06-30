@@ -54,10 +54,7 @@
 
   /* all in one  */
 
-/*   .div2 h1 {
-    font-size: 33px;
-    margin-top: 78px;
-  } */
+
  .hero-section {
       width:221%;
  }
@@ -73,48 +70,7 @@
         font-size: 14px;
         padding: 10px 24px;
       }
-/* 
-  .div2 p {
-    color: rgb(183, 175, 175);
-    font-size: 13px;
-    margin-top: 17px;
-    margin-left: 3%;
-  } */
 
-/*   .div2 button {
-    height: 45px;
-    width: 127px;
-    padding: 1.5px;
-    margin-left: 4%;
-    margin-top: 1.5px;
-  } */
-
- .div2 {
-    height: 392px;
-    width:518px;
-    background-color: #0b1a27;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-  }
-
-
-
-/*   .div2-img {
-    height: 444px;
-    background-color: #0b1a27;
-    border-radius: 0 0 25px 25px;
-    border: 1px solid #0b1a27;
-  } */
-
-/*   .div2-img img {
-    height: 667px;
-    width: 1152px;
-    margin-top: 21px;
-    margin-left: 15%;
-  } */
 
   .div3 {
     text-align: center;
