@@ -87,7 +87,7 @@
     margin-top: 1.5px;
   } */
 
-  .div2 {
+/*   .div2 {
     height: 392px;
     width:518px;
     background-color: #0b1a27;
@@ -96,23 +96,23 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
-  }
+  } */
 
 
 
-  .div2-img {
+/*   .div2-img {
     height: 444px;
     background-color: #0b1a27;
     border-radius: 0 0 25px 25px;
     border: 1px solid #0b1a27;
-  }
+  } */
 
-  .div2-img img {
+/*   .div2-img img {
     height: 667px;
     width: 1152px;
     margin-top: 21px;
     margin-left: 15%;
-  }
+  } */
 
   .div3 {
     text-align: center;
