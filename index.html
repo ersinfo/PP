@@ -17,61 +17,51 @@
 <body>
 
     <!--navbar header start here-->
-    <nav class="navbar navbar-expand-lg nav-header py-3 fixed-top" style="background-color: #09151f;">
-        <div class="container-fluid">
+     <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container-fluid px-3">
 
-            <!-- Logo -->
-            <a class="navbar-brand" href="#"><img src="logo2.svg" alt=""></a>
+      <!-- Logo -->
+      <a class="navbar-brand" href="#"><img src="logo2.svg" alt="Logo" /></a>
 
-            <!-- Mobile: Button first, Toggler second -->
-            <div class="d-flex align-items-center d-lg-none">
-                <!-- Get Started Button -->
-                <button type="button" class="btn btn-danger nav-button order-1 me-2">Get Started</button>
+      <!-- Mobile Buttons -->
+      <div class="d-flex align-items-center d-lg-none">
+        <button class="btn btn-danger nav-button me-2">Get Started</button>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
 
-                <!-- Toggler -->
-                <button class="navbar-toggler order-2" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            </div>
+      <!-- Main Nav Items -->
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav mb-2 mb-lg-0 text-center text-lg-start">
+          <li class="nav-item">
+            <a class="nav-link ncol active" href="#">Products<span>+</span></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link ncol dropdown-toggle" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              About Us
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ncol" href="#">Careers</a>
+          </li>
+        </ul>
+      </div>
 
-            <!-- Nav Items (centered on large) -->
-            <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-                <ul class="navbar-nav mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link ncol active" style="color: #fff;" aria-current="page"
-                            href="#">Products<span>+</span></a>
-                    </li>
-
-                    <li class="nav-item dropdown">
-                        <a class="nav-link ncol dropdown-toggle" style="color: #fff;" href="#" id="navbarDropdown"
-                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            About Us
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link ncol " style="color: #fff;" href="#">Careers</a>
-                    </li>
-                </ul>
-            </div>
-
-            <!-- Desktop: Button on right -->
-            <div class="d-none d-lg-block">
-                <button type="button" class="btn btn-danger nav-button">Get Started</button>
-            </div>
-
-        </div>
-    </nav>
+      <!-- Desktop Get Started Button -->
+      <div class="d-none d-lg-block">
+        <button class="btn btn-danger nav-button">Get Started</button>
+      </div>
+    </div>
+  </nav>
     <!--navbar header start here-->
 
     <!-- div2 start here -->
