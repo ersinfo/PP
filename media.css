@@ -75,7 +75,7 @@
   .div3 {
     text-align: center;
     height: 111px;
-    width: 518px;
+    width:221%;
     background-color: #0b1a27;
     border-radius: 0 0 25px 25px;
     border: 1px solid #0b1a27;
@@ -163,7 +163,7 @@
   .div4 {
     background-color: #FCF6F7;
     height: 282px;
-    width: 518px;
+     width:221%;
     text-align: center;
   }
 
@@ -216,7 +216,7 @@
   }
 
   .div5 {
-    width: 518px;
+    width:221%;
     background-color: #0b1a27;
     border: 1px solid #0b1a27;
     border-radius: 25px 25px;
@@ -327,7 +327,7 @@
   }
 
   .div6 {
-    width: 518px;
+    width:221%;
     display: flex;
     flex-direction: column;
     gap: 12px;
@@ -512,7 +512,7 @@
 
     .trust {
       height: 567px;
-      width: 518px;
+      width:221%;
       background-color: #09151f;
       border: 1px solid #09151f;
       border-radius: 15px;
@@ -783,7 +783,7 @@
     }
 
     .footer-1 {
-      width: 518px;
+      width:221%;
       background-color: #09151f;
       color: white;
       height: 497px;
