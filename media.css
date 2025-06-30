@@ -43,31 +43,7 @@
         border-radius: 0 0 10px 10px;
       }
 
-  /* all in one  */
-
-  .div2 h1 {
-    font-size: 33px;
-    margin-top: 78px;
-  }
-
-  .div2 p {
-    color: rgb(183, 175, 175);
-    font-size: 13px;
-    margin-top: 17px;
-    margin-left: 3%;
-  }
-
-  .div2 button {
-    height: 45px;
-    width: 127px;
-    padding: 1.5px;
-    margin-left: 4%;
-    margin-top: 1.5px;
-  }
-
-
-
-  .nav-link span {
+    .nav-link span {
     color: red;
   }
 
@@ -75,6 +51,41 @@
     font-size: 18px;
     font-weight: 400;
   }
+
+  /* all in one  */
+
+/*   .div2 h1 {
+    font-size: 33px;
+    margin-top: 78px;
+  } */
+
+    .hero-title {
+        font-size: 32px;
+      }
+
+      .hero-text {
+        font-size: 14px;
+      }
+
+      .hero-button {
+        font-size: 14px;
+        padding: 10px 24px;
+      }
+/* 
+  .div2 p {
+    color: rgb(183, 175, 175);
+    font-size: 13px;
+    margin-top: 17px;
+    margin-left: 3%;
+  } */
+
+/*   .div2 button {
+    height: 45px;
+    width: 127px;
+    padding: 1.5px;
+    margin-left: 4%;
+    margin-top: 1.5px;
+  } */
 
   .div2 {
     height: 392px;
