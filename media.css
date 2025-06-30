@@ -4,7 +4,7 @@
   }
 }
 
-@media only screen and (min-width:200px) and (max-width:575px) {
+@media (max-width: 575.98px)  {
 
   .hidden {
     display: none;
@@ -27,12 +27,21 @@
   }
 
   .navbar-brand img {
-    margin-left: 20px;
-  }
+        margin-left: 10px;
+        width: 110px;
+      }
 
-  .nav-button {
-    margin-right: 2px;
-  }
+      .nav-button {
+        margin-right: 5px;
+        font-size: 13px;
+        padding: 6px 14px;
+      }
+
+      .navbar-collapse {
+        background-color: #09151f;
+        padding: 10px 20px;
+        border-radius: 0 0 10px 10px;
+      }
 
   /* all in one  */
 
