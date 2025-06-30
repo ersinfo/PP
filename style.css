@@ -72,6 +72,12 @@ body {
       padding-bottom: 60px;
 }
 
+ .hero-section {
+      padding-top: 100px;
+      padding-bottom: 60px;
+      text-align: center;
+    }
+
 /* .div2 h1 {
   font-size: 75px;
   margin-top: 58px;
