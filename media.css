@@ -1,10 +1,10 @@
-/* @media (min-width: 1280px) {
-  .lg\:h-\[983px\] {
-    height: 983px;
-  }
-} */
 
-@media (max-width: 575.98px)  {
+@media (max-width: 575.98px) { 
+
+  body {
+   overflow-x: hidden;
+  position: relative;
+}
 
   .hidden {
     display: none;
@@ -43,7 +43,7 @@
         border-radius: 0 0 10px 10px;
       }
 
-    .nav-link span {
+      .nav-link span {
     color: red;
   }
 
@@ -51,31 +51,31 @@
     font-size: 18px;
     font-weight: 400;
   }
-
   /* all in one  */
 
-
- .hero-section {
-      width:221%;
- }
-    .hero-title {
-        font-size: 32px;
+   .hero-section {
+        padding-top: 100px;
+        width:100%;
       }
 
-      .hero-text {
-        font-size: 14px;
+      .hero-section h1 {
+        font-size: 24px;
       }
 
-      .hero-button {
+      .hero-section p {
+        font-size: 12px;
+        margin-left: 6px;
+      }
+
+      .hero-section .btn {
         font-size: 14px;
         padding: 10px 24px;
       }
 
-
   .div3 {
     text-align: center;
     height: 111px;
-    width:221%;
+    width: 100%;
     background-color: #0b1a27;
     border-radius: 0 0 25px 25px;
     border: 1px solid #0b1a27;
@@ -92,7 +92,7 @@
   .button-group button {
     border: none;
     background-color: transparent;
-    padding: 10px 20px;
+    padding: 10px 10px;
     font-size: 16px;
     cursor: pointer;
   }
@@ -163,7 +163,7 @@
   .div4 {
     background-color: #FCF6F7;
     height: 282px;
-     width:221%;
+    width: 100%;
     text-align: center;
   }
 
@@ -216,7 +216,7 @@
   }
 
   .div5 {
-    width:221%;
+    width: 100%;
     background-color: #0b1a27;
     border: 1px solid #0b1a27;
     border-radius: 25px 25px;
@@ -236,15 +236,16 @@
 
   .div5 h2 {
     color: white;
-    font-size: 23px;
+    font-size: 20px;
     font-weight: 550;
     padding: 24px 0;
   }
 
   .div5 p {
-    font-size: 15px;
+    font-size: 10px;
     color: #9eAAB4;
     margin-bottom: 15px;
+    margin-left: 10px;
   }
 
   .div5-col {
@@ -262,45 +263,50 @@
     display: flex;
     flex-direction: column;
     border: 1px solid #1b2d3e;
-    height: 424px;
-    width: 413px;
+    height: 381px;
+    width: 339px;
     border-radius: 24px;
     background-color: #122333;
     margin-bottom: 50px;
+     margin-left: -30px;
   }
 
   .who-1-1 {
     margin-top: 15px;
+   
   }
 
   .who-1-1 h1 {
     color: white;
     font-size: 25px;
-    margin-left: 42px;
+    margin-left: 15px;
 
   }
 
   .who-1-1 p {
     font-size: 12px;
-    margin-left: 63px;
+margin-left: 30px;
   }
 
   .who-1 img {
-    margin-left: -108px !important;
-    margin-top: -96px !important;
+    height: 500px;
+    width: 430px;
+    margin-left: -105px;
+    margin-top: -165px;
     border: 0.01px solid #122333;
     border-radius: 0 0 21px 0;
   }
 
   .who-2 {
-    display: flex;
+     display: flex;
     flex-direction: column;
     border: 1px solid #1b2d3e;
-    height: 392px;
-    width: 413px;
+    height: 381px;
+    width: 339px;
     border-radius: 24px;
     background-color: #122333;
     margin-bottom: 50px;
+     margin-left: -30px;
   }
 
   .who-1-2 {
@@ -310,72 +316,81 @@
   .who-1-2 h1 {
     color: white;
     font-size: 25px;
-    margin-left: 42px;
+    margin-left: 15px;
 
   }
 
   .who-1-2 p {
     font-size: 12px;
-    margin-left: 63px;
+    margin-top: 30px;
   }
 
   .who-2 img {
-    padding-left: 0px;
-    margin-top: 50px !important;
+     height: 500px;
+    width: 345px;
+    margin-left: -35px;
+    margin-top: 50px;
     border: 0.01px solid #122333;
     border-radius: 0 0 21px 0;
   }
 
   .div6 {
-    width:221%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 12px;
-
+  }
     .who-3 {
-      display: flex;
-      flex-direction: column;
-      border: 1px solid #1b2d3e;
-      height: 396px;
-      width: 435px;
-      border-radius: 24px;
-      background-color: #122333;
-      margin-bottom: 50px;
-      text-align: left;
-      padding: 32px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #1b2d3e;
+    height: 381px;
+    width: 339px;
+    border-radius: 24px;
+    background-color: #122333;
+    margin-bottom: 50px;
+     margin-left: -30px;
     }
 
     .who-3 h1 {
       color: white;
+    font-size: 25px;
+    margin-left: 15px;
     }
 
     .who-3 img {
-      margin-top: -3px;
+       height: 500px;
+    width: 345px;
+    margin-left: -35px;
+    margin-top: 10px;
+    border: 0.01px solid #122333;
+    border-radius: 0 0 21px 0;
     }
 
     .who-4 {
-      display: flex;
-      flex-direction: column;
-      border: 1px solid #1b2d3e;
-      height: 406px;
-      width: 441px;
-      border-radius: 24px;
-      background-color: #122333;
-      margin-bottom: 50px;
+     display: flex;
+    flex-direction: column;
+    border: 1px solid #1b2d3e;
+    height: 381px;
+    width: 339px;
+    border-radius: 24px;
+    background-color: #122333;
+    margin-bottom: 50px;
+     margin-left: -30px;
     }
 
     .who-4 h1 {
       color: white;
-      font-size: 25px;
-      margin-left: 42px;
+    font-size: 25px;
+    margin-left: 6px;
     }
 
     .who-4 img {
-      height: 337px;
-      margin-left: -125px !important;
-      margin-top: -63px !important;
-      border: 0.01px solid #122333;
-      border-radius: 0 0 21px 0;
+     height: 500px;
+    width: 430px;
+    margin-left: -105px;
+    margin-top: -165px;
+  
     }
 
     .div6 .container h6 {
@@ -399,7 +414,7 @@
 
     .div6-p {
       /* font-size: 23px; */
-      text-align: center;
+     margin-left: 10px;
       color: rgb(149, 147, 147)
     }
 
@@ -511,8 +526,8 @@
     }
 
     .trust {
-      height: 567px;
-      width:221%;
+      height: 650px;
+      width: 100%;
       background-color: #09151f;
       border: 1px solid #09151f;
       border-radius: 15px;
@@ -520,26 +535,22 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      padding: 0 128px;
+      /* padding: 0 128px; */
       justify-content: space-evenly;
     }
 
-    .trust h1 {
-      font-size: 12px;
+    .trust-1 p {
+      font-size: 10px;
     }
-
-    /* .trust-1 {
-  border-left: 0px solid rgba(255, 255, 255, 0.5);
-}  */
-
     .trust-2 img {
-      height: 80px;
+      height: 70px;
       width: 80px;
     }
 
     .trust-2 {
       display: flex;
       flex-direction: row;
+      border-left: 0.5px dotted #09151f;
     }
 
     .set h1,
@@ -549,23 +560,25 @@
     }
 
     .trust-3 img {
-      height: 80px;
+      height: 70px;
       width: 80px;
     }
 
     .trust-3 {
       display: flex;
       flex-direction: row;
+      border-left: 0.1px dotted #09151f;
     }
 
     .trust-4 img {
-      height: 80px !important;
+      height: 70px !important;
       width: 80px !important;
     }
 
     .trust-4 {
       display: flex;
       flex-direction: row;
+      border-left: 0.1px dotted #09151f;
     }
 
     .div7 .container h6 {
@@ -652,8 +665,6 @@
 
     .images {
       position: relative;
-      /* width: 45%;
-  height: 400px; */
     }
 
     .image-box {
@@ -690,13 +701,13 @@
       flex-direction: row;
       align-items: center;
       justify-content: space-between;
-      margin-top: 48px;
-      margin-bottom: 48px;
+      margin-top: 24px;
+      margin-bottom: 24px;
     }
 
     .hfoc h1 {
-      margin-left: 150px !important;
-    }
+      margin-left: 75px !important;
+    } 
 
     .left,
     .right {
@@ -707,7 +718,7 @@
       border-radius: 50%;
       font-weight: 300;
       margin-top: 54px;
-      margin-left: 140px;
+      margin-left: 100px;
 
     }
 
@@ -730,7 +741,7 @@
 
     .card {
       height: 257px;
-      width: 476px;
+      width: 345px;
       background: #fff;
       border-radius: 15px;
       padding: 48px;
@@ -783,10 +794,10 @@
     }
 
     .footer-1 {
-      width:221%;
+      width: 100%;
       background-color: #09151f;
       color: white;
-      height: 497px;
+      height: 565px;
       z-index: 3;
     }
 
@@ -833,12 +844,12 @@
       padding: 12px
     }
 
-    .facebook i {
-      border: 1px solid white;
-      height: 40px;
-      width: 40px;
-      color: white;
-      border-radius: 50%;
-      padding: 12px
+      .facebook i {
+        border: 1px solid white;
+        height: 40px;
+        width: 40px;
+        color: white;
+        border-radius: 50%;
+        padding: 12px;
+      }
     }
-  }
