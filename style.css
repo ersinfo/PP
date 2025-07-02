@@ -5,8 +5,9 @@
 
 body {
   padding-top: 82px;
-  
 }
+
+ 
 
 .hidden2 {
   display:none;
@@ -60,6 +61,7 @@ body {
       font-size: 14px;
     }
 
+
     .hero-section {
       padding: 80px 20px 50px;
       text-align: center;
@@ -84,6 +86,7 @@ body {
       padding: 12px 30px;
       font-size: 16px;
     }
+
 .div3 {
   text-align: center;
   height: 444px;
@@ -173,7 +176,7 @@ body {
 
 .div4 {
   background-color: #FCF6F7;
-  height: 444px;
+  height: 270px;
   width: 100%;
   text-align: center;
 }
